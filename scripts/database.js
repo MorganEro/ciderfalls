@@ -66,10 +66,10 @@ const database = {
     ],
     parkAreas: [{
         id: 1,
-        location:"NorthEast",
-        title: "Chamfort River",
-        guestId: [2, 3, 6],
-        serviceId: [1, 2, 3] 
+        location:"NorthWest",
+        title: "Lodge",
+        guestId: [3, 8],
+        serviceId: [4, 5, 6, 7] 
     },{
         id: 2,
         location:"Northern",
@@ -78,10 +78,10 @@ const database = {
         serviceId: [7, 8, 9] 
     },{
         id: 3,
-        location:"NorthWest",
-        title: "Lodge",
-        guestId: [3, 8],
-        serviceId: [4, 5, 6, 7] 
+        location:"NorthEast",
+        title: "Chamfort River",
+        guestId: [2, 3, 6],
+        serviceId: [1, 2, 3] 
     },{
         id: 4,
         location:"SouthWest",
@@ -113,3 +113,4 @@ export const getAreas = () => {
 export const getServices = () => {
     return database.services.map(service => ({...service}))
   }
+
