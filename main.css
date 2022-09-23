@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    
+
+}
+
+.details {
+    display: inline-block;
+
+    margin: 10px;
+}   
+ul {
+    list-style-type: none;
+}
+
+
+    
+.logo {
+    
+    
+}
+.name-logo {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 50px;
+    
+}
+
+img {
+    width: 100px;
+}
+h1 {
+    color: olive;
+    font-size: 70px;
+    font-family: 'Sigmar One', cursive;
+    text-shadow: 4px 4px black ;
+}
+section {
+    font-family: 'Sigmar One', cursive;
+
+}
+.htmlData {
+    background-color: beige;
+    border: 6px solid olive;
+    height: 80%;
+    margin: 50px;
+    position: relative;
+    
+
+
+}   
+
+.service__group {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap; 
+    font-size: 15px;
+    color: black;   
+}
+.guests {
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+.guests > ul {
+    text-align: right;
+}
+.services > h2, .areas > h2 {
+    position: relative;
+    text-align: center;
+    text-decoration: underline olive;
+}
+.guests > h2 {
+    position: relative;
+    text-align: right;
+    text-decoration: underline;   
+}
+
+
+.areas {
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.area__list {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.area__list > li {
+    border: olive 2px solid;
+    padding: 4px;
+    
+}
