@@ -68,37 +68,37 @@ const database = {
         id: 1,
         location:"NorthWest",
         title: "Lodge",
-        guestId: [3, 8],
+        guestId: 1,
         serviceId: [4, 5, 6, 7] 
     },{
         id: 2,
         location:"Northern",
         title: "Lost Wolf Hiking Trail",
-        guestId: [6, 7],
+        guestId: 2,
         serviceId: [7, 8, 9] 
     },{
         id: 3,
         location:"NorthEast",
         title: "Chamfort River",
-        guestId: [2, 3, 6],
+        guestId: 3,
         serviceId: [1, 2, 3] 
     },{
         id: 4,
         location:"SouthWest",
         title: "Gander River",
-        guestId: [5,8,3,1],
+        guestId: 4,
         serviceId: [1, 8] 
     },{
         id: 5,
         location:"Southern",
         title: "Campgrounds",
-        guestId: [2, 4, 6],
+        guestId: 5,
         serviceId: [6,4,5] 
     },{
         id: 6,
         location:"Southeast",
         title: "Pine Bluffs Trails",
-        guestId: [7],
+        guestId: [7,8],
         serviceId: [8,7,10] 
     }
     ]
